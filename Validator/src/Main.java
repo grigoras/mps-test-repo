@@ -10,7 +10,7 @@ public class Main {
 			if(ValidatorIpv4.isIPv4(args[0])) {
 				System.out.println(args[0] + " este IPv4.");
 			}
-			else if(ValidatorIpv6.isIPv6(args[0])) {
+			else if(ValidatorIpv6.isIpv6(args[0])) {
 				System.out.println(args[0] + " este IPv6.");
 			} else {
 				System.out.println("Adresa invalida!");
