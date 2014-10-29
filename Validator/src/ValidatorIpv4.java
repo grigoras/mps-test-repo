@@ -4,7 +4,7 @@ import java.lang.NumberFormatException;
 public class ValidatorIpv4 {
 	
 	public static boolean isIPv4(String inputString) {
-		String[] tempString = inputString.split(".");
+		String[] tempString = inputString.toString().split("\\.");
 		if (tempString.length == 4) {
 			for(int i = 0; i < tempString.length; i++) {
 				try {
